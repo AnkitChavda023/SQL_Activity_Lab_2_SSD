@@ -36,7 +36,7 @@ Iterates through all subscribers using a cursor and prints their names.
 github link : https://github.com/AnkitChavda023/SQL_Activity_Lab_2_SSD/blob/main/q1.sql
 
  2--> run this quety :
-# >> CALL ListAllSubscribers();
+ >>  "CALL ListAllSubscribers();"
 
 
 ----------------------------------------------------------------------------------------------------
@@ -53,8 +53,8 @@ Given a SubscriberID, returns all shows that subscriber has watched along with w
 
 github link : https://github.com/AnkitChavda023/SQL_Activity_Lab_2_SSD/blob/main/q2.sql
 
- 2--> run this quety :
- #  >>  'CALL GetWatchHistoryBySubscriber(<subscriberId>); '
+2--> run this quety :
+>> 'CALL GetWatchHistoryBySubscriber(<subscriberId>); '
 
 
 -----------------------------------------------------------------------------------------------------
@@ -69,7 +69,7 @@ Adds a new subscriber only if they don’t already exist in the Subscribers tabl
 github link : https://github.com/AnkitChavda023/SQL_Activity_Lab_2_SSD/blob/main/q3.sql
 
 2--> run this quety :
-#  >>" CALL AddSubscriberIfNotExists('Subscriber_Name'); "
+  > " CALL AddSubscriberIfNotExists('Subscriber_Name'); "
 
 >> expected output :
 If subscriber already exists → No duplicate will be inserted.
@@ -90,7 +90,7 @@ Loops through all subscribers and internally calls GetWatchHistoryBySubscriber()
 github link : https://github.com/AnkitChavda023/SQL_Activity_Lab_2_SSD/blob/main/q4.sql
 
 2--> run this quety :
-# CALL SendWatchTimeReport()
+ >> "CALL SendWatchTimeReport()"
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -105,4 +105,4 @@ Uses a cursor to loop through each subscriber. For each subscriber, it calls Get
 github link : https://github.com/AnkitChavda023/SQL_Activity_Lab_2_SSD/blob/main/q5.sql
 
 2--> run this quety :
-# CALL PrintAllSubscribersWatchHistory()
+ >> " CALL PrintAllSubscribersWatchHistory() " 
